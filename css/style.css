@@ -1,0 +1,18 @@
+.termly-policy ul,
+.termly-policy ol,
+.termly-policy [data-custom-class="body_text"] ul,
+.termly-policy [data-custom-class="body_text"] ol {
+    padding-left: 1.5rem !important;   /* or 2rem if you want more indent */
+    margin-left: 0 !important;
+    list-style-position: outside !important;
+}
+
+.termly-policy li {
+    margin-left: 0 !important;
+    padding-left: 0.5rem !important;   /* fine-tune bullet position relative to text */
+}
+
+/* Optional: Make bullets match your theme color */
+.termly-policy li::marker {
+    color: #9ca3af;   /* zinc-400 gray for dark mode */
+}
