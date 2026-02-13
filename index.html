@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clean Swipe AI</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+        body { font-family: 'Inter', sans-serif; }
+    </style>
+</head>
+<body class="bg-zinc-950 text-white">
+    <!-- Header -->
+    <header class="border-b border-zinc-800">
+        <div class="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
+            <div class="flex items-center gap-3">
+                <div class="w-8 h-8 bg-blue-600 rounded-xl flex items-center justify-center text-white font-bold">A</div>
+                <span class="text-2xl font-semibold">Clean Swipe AI</span>
+            </div>
+            <nav class="flex gap-8 text-sm font-medium">
+                <a href="/" class="hover:text-blue-400 transition">Home</a>
+                <a href="/privacy" class="hover:text-blue-400 transition">Privacy</a>
+                <a href="/support" class="hover:text-blue-400 transition">Support</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="max-w-6xl mx-auto px-6 py-24 text-center">
+        <h1 class="text-6xl font-bold mb-6">Swipe. Clean. Organize. Simplify Your Digital Life</h1>
+        <p class="text-xl text-zinc-400 mb-10 max-w-2xl mx-auto">Simple, beautiful, and powerful. Available now on the App Store.</p>
+        <a href="https://apps.apple.com/us/app/clean-swipe-ai/id6737789479" 
+           class="inline-flex items-center gap-3 bg-white text-black px-8 py-4 rounded-2xl font-semibold text-lg hover:bg-zinc-200 transition">
+            <span>Download on the</span>
+            <span class="text-2xl"></span>
+            <span>App Store</span>
+        </a>
+    </section>
+
+    <!-- Add more sections as needed (features, screenshots, etc.) -->
+
+    <!-- Footer -->
+    <footer class="bg-zinc-900 border-t border-zinc-800 py-12">
+        <div class="max-w-6xl mx-auto px-6 text-center text-zinc-500 text-sm">
+            &copy; 2026 Clean Swipe AI. All rights reserved.
+            <div class="mt-4 flex justify-center gap-6">
+                <a href="/privacy" class="hover:text-white">Privacy Policy</a>
+                <a href="/support" class="hover:text-white">Support</a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Optional: Tailwind script to make it work
+        tailwind.config = {
+            content: ["./**/*.{html,js}"],
+            theme: { extend: {} }
+        }
+    </script>
+</body>
+</html>
