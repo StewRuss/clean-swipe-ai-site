@@ -4,6 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Clean Swipe AI</title>
+    <!-- Favicon for browser tabs (most common) -->
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
+    
+    <!-- Better support: PNG version as fallback (some browsers prefer it) -->
+    <link rel="icon" type="image/png" href="assets/images/logo.png" sizes="32x32"> <!-- or your 32x32 version -->
+    
+    <!-- For iOS/Android home screen add-to-home (nice touch) -->
+    <link rel="apple-touch-icon" href="assets/images/apple-touch-icon.png">
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="css/style.css">
     <style>
@@ -16,7 +24,9 @@
     <header class="border-b border-zinc-800">
         <div class="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
             <div class="flex items-center gap-3">
-                <div class="w-8 h-8 bg-blue-600 rounded-xl flex items-center justify-center text-white font-bold">A</div>
+                <img src="assets/images/logo.png" 
+                     alt="Clean Swipe AI logo" 
+                     class="w-10 h-10 rounded-xl object-cover shadow-md">
                 <span class="text-2xl font-semibold">Clean Swipe AI</span>
             </div>
             <nav class="flex gap-8 text-sm font-medium">
@@ -39,15 +49,48 @@
         </a>
     </section>
 
-    <!-- Add more sections as needed (features, screenshots, etc.) -->
+    <!-- Screenshots Gallery -->
+    <section class="max-w-6xl mx-auto px-6 py-16">
+        <h2 class="text-4xl font-bold text-center mb-12">See Clean Swipe AI in Action</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
+            <div class="group relative overflow-hidden rounded-3xl border border-zinc-800 shadow-xl bg-zinc-900 transition-all duration-300 hover:shadow-2xl hover:shadow-blue-900/40 hover:border-blue-800/50">
+                <img src="assets/images/1.png" 
+                    alt="Clean Swipe AI screenshot showing swipe cleaning feature" 
+                    class="w-full h-auto object-cover transition-transform duration-500 ease-out group-hover:scale-110">
+            </div>
+            <div class="group relative overflow-hidden rounded-3xl border border-zinc-800 shadow-xl bg-zinc-900 transition-all duration-300 hover:shadow-2xl hover:shadow-blue-900/40 hover:border-blue-800/50">
+                <img src="assets/images/2.png" 
+                    alt="Clean Swipe AI screenshot of organization tools" 
+                    class="w-full h-auto object-cover transition-transform duration-500 ease-out group-hover:scale-110">
+            </div>
+            <div class="group relative overflow-hidden rounded-3xl border border-zinc-800 shadow-xl bg-zinc-900 transition-all duration-300 hover:shadow-2xl hover:shadow-blue-900/40 hover:border-blue-800/50">
+                <img src="assets/images/3.png" 
+                    alt="Clean Swipe AI screenshot demonstrating AI-powered cleanup" 
+                    class="w-full h-auto object-cover transition-transform duration-500 ease-out group-hover:scale-110">
+            </div>
+            <div class="group relative overflow-hidden rounded-3xl border border-zinc-800 shadow-xl bg-zinc-900 transition-all duration-300 hover:shadow-2xl hover:shadow-blue-900/40 hover:border-blue-800/50">
+                <img src="assets/images/4.png" 
+                    alt="Clean Swipe AI screenshot of simplified digital life view" 
+                    class="w-full h-auto object-cover transition-transform duration-500 ease-out group-hover:scale-110">
+            </div>
+            <div class="group relative overflow-hidden rounded-3xl border border-zinc-800 shadow-xl bg-zinc-900 transition-all duration-300 hover:shadow-2xl hover:shadow-blue-900/40 hover:border-blue-800/50 sm:col-span-2 lg:col-span-1">
+                <img src="assets/images/5.png" 
+                    alt="Clean Swipe AI screenshot highlighting key features" 
+                    class="w-full h-auto object-cover transition-transform duration-500 ease-out group-hover:scale-110">
+            </div>
+        </div>
+    </section>
 
     <!-- Footer -->
     <footer class="bg-zinc-900 border-t border-zinc-800 py-12">
         <div class="max-w-6xl mx-auto px-6 text-center text-zinc-500 text-sm">
-            &copy; 2026 Clean Swipe AI. All rights reserved.
+            Proudly Made in the U.S.A
             <div class="mt-4 flex justify-center gap-6">
-                <a href="/privacy" class="hover:text-white">Privacy Policy</a>
-                <a href="/support" class="hover:text-white">Support</a>
+            <a href="/privacy" class="hover:text-white">Privacy Policy</a>
+            <a href="/support" class="hover:text-white">Support</a>
+            </div>
+            <div class="mt-6 text-zinc-600">
+            &copy; 2026 Clean Swipe AI.
             </div>
         </div>
     </footer>
