@@ -21,7 +21,7 @@ Available now on the App Store.
 - **Swipe to clean** — fast, satisfying actions to remove clutter
 - **AI-powered suggestions** — smart recommendations for what to keep or delete
 - **Organize effortlessly** — group, tag, and simplify your content
-- **Minimal & focused design** — no ads, no bloat
+- **Minimal & focused design** — minimal ads, no bloat
 
 ## Screenshots
 
@@ -37,7 +37,7 @@ Available now on the App Store.
 ## Website
 
 Live site (hosted via GitHub Pages):  
-https://[yourusername].github.io/[your-repo-name]/
+https://StewRuss.github.io/clean-swipe-ai-site/
 
-- [Privacy Policy](https://[yourusername].github.io/[your-repo-name]/privacy)
-- [Support / Discord](https://[yourusername].github.io/[your-repo-name]/support)
+- [Privacy Policy](https://StewRuss.github.io/clean-swipe-ai-site/privacy)
+- [Support / Discord](https://StewRuss.github.io/clean-swipe-ai-site/support)
